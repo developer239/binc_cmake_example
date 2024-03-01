@@ -1,8 +1,10 @@
+#include "externals/binc/utility.h"
 #include <iostream>
-#include "utility.h"
 
 int main() {
     std::cout << "Initializing binc..." << std::endl;
+
+    path_to_address("Hello world");
 
     std::cout << "binc initialized successfully." << std::endl;
     return 0;
