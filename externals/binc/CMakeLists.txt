@@ -1,8 +1,3 @@
-cmake_minimum_required(VERSION 3.24)
-project(binc)
-
-set(CMAKE_C_STANDARD 11)
-
 # Find pkg-config first
 find_package(PkgConfig REQUIRED)
 
